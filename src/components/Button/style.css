@@ -1,0 +1,17 @@
+.btn{
+    display: block;
+    margin: 20px auto;
+    background-color: purple;
+    padding: 10px 25px;
+    color: #fff;
+    border: 0;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: translateX(-5px);
+}
+.btn:disabled{
+    cursor: not-allowed;
+    background-color: #ddd;
+}
