@@ -8,6 +8,11 @@
   display: block;
   margin: 0 auto;
 }
+.flex-center-vh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .posts-container{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); 
